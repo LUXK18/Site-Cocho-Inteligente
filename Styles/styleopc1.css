@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 98vh;
+    min-width: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    cursor: default;
+    transition: 1s;
+}
+
+p:hover {
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.material-symbols-outlined {
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 0px;
+    margin: 50px;
+    border-radius: 200px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 58
+}
+.material-symbols-outlined:hover {
+    cursor: pointer;
+    background-color: #73d655;
+    padding: 10px;
+    border-radius: 10px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 58
+}

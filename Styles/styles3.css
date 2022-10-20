@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 98vh;
+    min-width: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(209, 209, 209);
+    padding: 20px 30px 50px 30px;
+    border-radius: 20px;
+}
+
+#email, #senha {
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 51px 10px 15px;
+    transition: 1s;
+    outline: none;
+}
+
+#email:hover, #senha:hover{
+    border-radius: 25px;
+    border-style: none;
+    padding: 15px 51px 15px 15px;
+}
+
+#entrar, #voltar{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#voltar:hover {
+    background-color: #d65555;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 100px 20px 100px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+#entrar:hover {
+    background-color: #5589d6;
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 100px 20px 100px;
+    border-radius: 20px;
+    border-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
